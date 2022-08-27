@@ -1,7 +1,7 @@
 const express=require('express')
 const mongoose=require('mongoose')
 const user=require('./routes/user')
-const post=require('./routes/post')
+const post=require('./routes/posts')
 const app=express()
 const port=4000
 const url='mongodb://localhost/facebookClone'
